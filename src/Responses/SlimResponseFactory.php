@@ -3,8 +3,8 @@
 namespace League\Glide\Responses;
 
 use Closure;
-use Slim\Http\Response;
-use Slim\Http\Stream;
+use Slim\Psr7\Response;
+use Slim\Psr7\Stream;
 
 class SlimResponseFactory extends PsrResponseFactory
 {
